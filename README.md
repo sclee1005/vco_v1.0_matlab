@@ -27,11 +27,9 @@ Links for 3rd party code
   
   Included within the folder is a modified implementation of the Frangi filter which is a slight improvement compared to the above implementation - link for original code :  http://rpal.cse.usf.edu/project1/Vessel_Feature_Detection_Codes.zip
 - [2] Fast marching method* : https://kr.mathworks.com/matlabcentral/fileexchange/6110-toolbox-fast-marching
-  
-  to compile, instead of running the original compile_mex.m file, run compile_mexModifiedForVCO.m in order for our modifications to take effect.
+  * to compile, instead of running the original compile_mex.m file, run compile_mexModifiedForVCO.m in order for our modifications to take effect.
 - [3] MRF* : https://github.com/aosokin/mrfMinimizerMex_trws_lbp 
-  
-  to compile, instead of running the original buildMrfMinimizeMex.m file, run buildMrfMinimizeMexModifiedForVCO.m in order for our modifications to take effect.
+ * to compile, instead of running the original buildMrfMinimizeMex.m file, run buildMrfMinimizeMexModifiedForVCO.m in order for our modifications to take effect.
 - [4] VLFeat : http://www.vlfeat.org/
 
 **************************************************************
