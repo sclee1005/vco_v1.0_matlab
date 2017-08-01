@@ -32,10 +32,9 @@ Links for 3rd party code
 - [4] VLFeat : http://www.vlfeat.org/
 **************************************************************
 If you have any question or recommendation regarding this code, please contact:
-Seung Yeon Shin (syshin@snu.ac.kr), 
-Seoul National University, Seoul, Republic of Korea
-Soochahn Lee (sclsch@sch.ac.kr),
-Kyoung Jin Noh (yellowd91@gmail.com)
+- Seung Yeon Shin (syshin@snu.ac.kr), Seoul National University, Seoul, Republic of Korea
+- Soochahn Lee (sclsch@sch.ac.kr),
+- Kyoung Jin Noh (yellowd91@gmail.com)
 Soonchunhyang University, Asan, Republic of Korea
 
 
