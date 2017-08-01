@@ -21,14 +21,14 @@ Matlab implementation (ver. 1.0) of the vessel correspondence optimization (VCO)
 1. Extract files
 2. Download, copy, and where needed compile the following 3rd party code to the corresponding folders in the /third_party subfolder. (Make sure to add /third_party and all subfolders to Matlab path)
 **************************************************************
-% Links for 3rd party code
+Links for 3rd party code
 [1] Frangi filter : https://kr.mathworks.com/matlabcentral/fileexchange/24409-hessian-based-frangi-vesselness-filter
-*  Included within the folder is a modified implementation of the Frangi filter which is a slight improvement compared to the above implementation - link for original code :  http://rpal.cse.usf.edu/project1/Vessel_Feature_Detection_Codes.zip
-[3] Fast marching method* : https://kr.mathworks.com/matlabcentral/fileexchange/6110-toolbox-fast-marching
-* to compile, instead of running the original compile_mex.m file, run compile_mexModifiedForVCO.m in order for our modifications to take effect.
-[4] MRF* : https://github.com/aosokin/mrfMinimizerMex_trws_lbp 
-* to compile, instead of running the original buildMrfMinimizeMex.m file, run buildMrfMinimizeMexModifiedForVCO.m in order for our modifications to take effect.
-[5] VLFeat : http://www.vlfeat.org/
+    Included within the folder is a modified implementation of the Frangi filter which is a slight improvement compared to the above implementation - link for original code :  http://rpal.cse.usf.edu/project1/Vessel_Feature_Detection_Codes.zip
+[2] Fast marching method* : https://kr.mathworks.com/matlabcentral/fileexchange/6110-toolbox-fast-marching
+    to compile, instead of running the original compile_mex.m file, run compile_mexModifiedForVCO.m in order for our modifications to take effect.
+[3] MRF* : https://github.com/aosokin/mrfMinimizerMex_trws_lbp 
+    to compile, instead of running the original buildMrfMinimizeMex.m file, run buildMrfMinimizeMexModifiedForVCO.m in order for our modifications to take effect.
+[4] VLFeat : http://www.vlfeat.org/
 **************************************************************
 3. Run SampleCodeForVCO to obtain VCO results for provided sample images. Modify corresponding file paths in SampleCodeForVCO.m to run VCO on different images.
 
