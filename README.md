@@ -13,7 +13,6 @@ Brief description of important files
 - GlobalChaferMatching_run.m: global chamfer matching from centerlines of frame t to frame t+1
 - Point2PointMatching.m: to generate corresponding point candidates in frame t+1 for points from frame t
 - ComputeCosts2: compute MRF unary and pairwise energy costs
-- mrfMinimizeMex_syshin.m (built after compiling buildMrfMinimizeMexModifiedForVCO.m in /third_party/mrfMinimizerMex_trws_lbp-master): perform MRF energy minimization to compute the optimal point correspondences
 - GrowVesselUsingFastMarching.m: post-processing for data such as angiograms where visible vessel regions may be growing
 
 **************************************************************
@@ -30,6 +29,7 @@ Links for 3rd party code
 - [3] MRF* : https://github.com/aosokin/mrfMinimizerMex_trws_lbp 
   * to compile, instead of running the original buildMrfMinimizeMex.m file, run buildMrfMinimizeMexModifiedForVCO.m in order for our modifications to take effect.
 - [4] VLFeat : http://www.vlfeat.org/
+- [5] Bresenham method : https://kr.mathworks.com/matlabcentral/fileexchange/28190-bresenham-optimized-for-matlab?s_tid=srchtitle
 **************************************************************
 If you have any questions or recommendation regarding this code, please contact:
 - Seung Yeon Shin (syshin@snu.ac.kr), Seoul National University, Seoul, Republic of Korea
